@@ -48,7 +48,7 @@ pip --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/youtube-downloader.git
+git clone https://github.com/Blue-Rangoon/youtube-downloader.git
 cd youtube-downloader
 ```
 
