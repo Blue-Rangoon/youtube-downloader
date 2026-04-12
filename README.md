@@ -3,13 +3,12 @@
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
   <img src="https://img.shields.io/badge/flask-2.3.3-red?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/yt-dlp-latest-yellow?style=for-the-badge&logo=youtube&logoColor=white" alt="yt-dlp">
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
 </p>
 
 A modern web-based YouTube video and audio downloader built with Flask. Extract video information, download in multiple quality formats, and support for both video and audio-only formats.
 
-![YouTube Downloader Preview](https://via.placeholder.com/800x400?text=YouTube+Downloader+Preview)
+![YouTube Downloader Preview](preview.png)
 
 ## ✨ Features
 
