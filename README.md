@@ -1,96 +1,225 @@
-# 🎬 YouTube Downloader – Flask Web App
+# 🎬 YouTube Downloader
 
 <p align="center">
-Download YouTube Videos & Audio with Clean UI + Python Backend
+  <img src="https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/flask-2.3.3-red?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/yt-dlp-latest-yellow?style=for-the-badge&logo=youtube&logoColor=white" alt="yt-dlp">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
 </p>
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=YouTube+Downloader;Flask+%2B+yt--dlp;Frontend+%2B+Backend+Integration;Fast+%26+Lightweight+Tool">
-</p>
+A modern web-based YouTube video and audio downloader built with Flask. Extract video information, download in multiple quality formats, and support for both video and audio-only formats.
 
----
+![YouTube Downloader Preview](https://via.placeholder.com/800x400?text=YouTube+Downloader+Preview)
 
-## 🚀 Project Badges
+## ✨ Features
 
-![HTML5](https://img.shields.io/badge/frontend-html5-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/style-css3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/logic-javascript-yellow?logo=javascript)
-![Python](https://img.shields.io/badge/backend-python-blue?logo=python)
-![Flask](https://img.shields.io/badge/framework-flask-lightgrey?logo=flask)
-![yt-dlp](https://img.shields.io/badge/library-yt--dlp-red)
-![Vercel](https://img.shields.io/badge/deployment-vercel-black?logo=vercel)
-![Downloader](https://img.shields.io/badge/domain-video%20downloader-purple)
+- 🔍 **Search & Extract** - Fetch video metadata (title, thumbnail, duration, uploader)
+- 🎥 **Video Downloads** - Download videos in multiple quality formats (MP4)
+- 🎵 **Audio Downloads** - Download audio-only formats (M4A, MP3)
+- 🍪 **Cookie Support** - Optional authentication via cookies.txt for private videos
+- ☁️ **Cloud Ready** - Deployable to Vercel with zero configuration
+- 🌐 **Cross-Platform** - Works on Windows, macOS, and Linux
 
----
+## 🛠️ Tech Stack
 
-## 👀 Visitors
+| Technology | Description |
+|------------|-------------|
+| **Python 3.8+** | Backend runtime |
+| **Flask 2.3.3** | Web framework |
+| **yt-dlp** | YouTube downloader library |
+| **HTML/CSS/JS** | Frontend UI |
 
-![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
+## 📋 Prerequisites
 
----
+Before installing, make sure you have:
 
-# 🌐 Live Demo
-
-https://youtube-downloader-civics.vercel.app/
-
----
-
-# 📥 YouTube Downloader (Flask + yt-dlp)
-
-A full-stack web app that allows users to extract and download YouTube video/audio formats using a Python Flask backend and a simple frontend.
-
-Instead of directly downloading, it first fetches available qualities, letting users choose what they want.
-
----
-
-## ⚡ Features
-
-- Paste YouTube URL
-- Fetch available video qualities
-- Extract audio-only formats
-- Display thumbnail & video details
-- Fast metadata extraction (no initial download)
-- Clean frontend + backend integration
-- Deployable on Vercel
-
----
-
-## 🧠 Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,py,flask,git,vercel" />
-</p>
-
-### Backend
-- Python
-- Flask
-- yt-dlp
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript 
-
----
-
-## 📂 Project Structure
+- Python 3.8 or higher installed
+- pip package manager
 
 ```bash
-Youtube-Downloader/
-├── api
-│   └── app.py
-├── static
-│   ├── index.css
-│   └── index.js
-├── templates
-│   └── index.html
-├── .gitignore
-├── Readme.md
-├── requirements.txt
-└── vercel.json
+python --version
+pip --version
 ```
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/youtube-downloader.git
+cd youtube-downloader
+```
+
+### 2. Create Virtual Environment (Recommended)
+
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install Flask==2.3.3 yt-dlp
+```
+
+Or install all requirements at once:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. (Optional) Add Cookies for Private Videos
+
+If downloading private or age-restricted videos:
+
+1. Export cookies from your browser as `cookies.txt`
+2. Place the file in the project root directory
+
+```
+youtube-downloader/
+├── cookies.txt    # Optional
+├── requirements.txt
+├── api/
+└── ...
+```
+
+### 5. Run the Application
+
+```bash
+cd api
+python app.py
+```
+
+Open your browser and visit: `http://localhost:5000`
+
+## 📖 Usage
+
+### Using the Web Interface
+
+1. Enter a YouTube video URL
+2. Click the search button
+3. Select your desired quality format
+4. Download the video or audio
+
+### Using the API
+
+```bash
+# Check if server is running
+curl http://localhost:5000/
+
+# Download video info
+curl -X POST http://localhost:5000/download \
+  -H "Content-Type: application/json" \
+  -d '{"url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}'
+```
+
+**Example Response:**
+
+```json
+{
+  "title": "Rick Astley - Never Gonna Give You Up",
+  "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+  "duration": 213,
+  "uploader": "RickAstleyVEVO",
+  "videos": [
+    {
+      "quality": "1080p",
+      "format_id": "137",
+      "ext": "mp4",
+      "filesize": null
+    }
+  ],
+  "audios": [
+    {
+      "quality": 128,
+      "format_id": "140",
+      "ext": "m4a",
+      "filesize": null
+    }
+  ],
+  "platform": "YouTube"
+}
+```
+
+## ☁️ Deployment to Vercel
+
+This project is configured for Vercel deployment:
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+Or connect your GitHub repository to Vercel for automatic deployments.
+
+## 📁 Project Structure
+
+```
+youtube-downloader/
+├── api/
+│   └── app.py              # Main Flask application
+├── static/
+│   ├── index.css          # Styling
+│   └── index.js           # Frontend logic
+├── templates/
+│   └── index.html         # User interface
+├── vercel.json            # Vercel configuration
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Git ignore rules
+└── README.md              # This file
+```
+
+## 🔧 Configuration
+
+### Changing Port
+
+Edit `api/app.py`:
+
+```python
+app.run(port=5000, debug=True)
+```
+
+### yt-dlp Options
+
+Modify `ydl_opts` in `api/app.py`:
+
+```python
+ydl_opts = {
+    "quiet": True,
+    "skip_download": True,
+    "extractor_args": {"youtube": ["client=android,web"]}
+}
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Disclaimer
+
+This tool is for educational purposes only. Please respect YouTube's Terms of Service and only download content you have the right to download.
 
 ---
 
-# 🙍🏻‍♂️ Author
-- [**Saad Ali Rizvi**](https://www.linkedin.com/in/saad-ali-rizvi/)
+<p align="center">
+  Made with ❤️ by Saad Ali Rizvi
+</p>
