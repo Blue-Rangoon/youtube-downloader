@@ -13,6 +13,16 @@ A modern web-based YouTube video and audio downloader built with Flask. Extract 
 
 ![YouTube Downloader Preview](preview.png)
 
+
+# 🌐 Live Demo
+
+[YouTube Downloader Site Link](https://youtube-downloader-civics.vercel.app/)
+
+## 👀 Visitors
+
+![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
+
+
 ## ✨ Features
 
 - 🔍 **Search & Extract** - Fetch video metadata (title, thumbnail, duration, uploader)
