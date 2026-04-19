@@ -42,10 +42,6 @@ Whether you want to save tutorials, music, or videos for offline viewing, this t
 
 ---
 
-[YouTube Downloader Site Link](https://youtube-downloader-civics.vercel.app/)
-
----
-
 ## ⭐ Repository Visitors
 
 <div align="center">
