@@ -1,13 +1,17 @@
 # 🎬 YouTube Downloader
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-  <img src="https://img.shields.io/badge/flask-2.3.3-red?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
-</p>
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+
+[![Last Commit](https://img.shields.io/github/last-commit/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=f39c12)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/commits/main)
+[![Stars](https://img.shields.io/github/stars/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=1abc9c)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/graphs/contributors)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI)
 
 A modern web-based YouTube video and audio downloader built with Flask. Extract video information, download in multiple quality formats, and support for both video and audio-only formats.
 
