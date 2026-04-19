@@ -16,6 +16,10 @@
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI)
 </p>
 
+</div>
+
+---
+
 A modern web-based YouTube video and audio downloader built with Flask. Extract video information, download in multiple quality formats, and support for both video and audio-only formats.
 
 ![YouTube Downloader Preview](preview.png)
