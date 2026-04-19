@@ -24,7 +24,7 @@
 
 </div>
 
----
+
 
 ![Project Preview](preview.png)
 
@@ -40,7 +40,7 @@ Whether you want to save tutorials, music, or videos for offline viewing, this t
 
 > 💡 **Live Demo:** [YouTube Downloader](https://youtube-downloader-civics.vercel.app/) *(Live Website)*
 
----
+
 
 ## ⭐ Repository Visitors
 
