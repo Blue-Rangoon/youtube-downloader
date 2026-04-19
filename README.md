@@ -269,4 +269,6 @@ This tool is for educational purposes only. Please respect YouTube's Terms of Se
 
 **Made with ❤️ by [Saad Ali Rizvi](https://github.com/Blue-Rangoon)**
 
-</div?
+[![GitHub followers](https://img.shields.io/github/followers/Blue-Rangoon?style=social)](https://github.com/Blue-Rangoon)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-0A66C2?style=social&logo=linkedin)](https://linkedin.com/in/saad-ali-rizvi/)
+</div>
