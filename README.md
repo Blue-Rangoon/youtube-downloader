@@ -26,18 +26,38 @@
 
 ---
 
-A modern web-based YouTube video and audio downloader built with Flask. Extract video information, download in multiple quality formats, and support for both video and audio-only formats.
+![Project Preview](preview.png)
 
-![YouTube Downloader Preview](preview.png)
+---
 
+## About The Project
 
-# 🌐 Live Demo
+A fast and lightweight YouTube video downloader built with Flask. This application allows users to download videos and audio directly from YouTube in multiple formats and resolutions, including **MP4 (HD)** and **MP3**.
+
+Designed for simplicity and speed, the YouTube Downloader provides a clean interface where users can paste a video link and instantly download content for offline use. It ensures high-quality downloads, quick processing, and a smooth user experience.
+
+Whether you want to save tutorials, music, or videos for offline viewing, this tool makes the process effortless and efficient.
+
+> 💡 **Live Demo:** [YouTube Downloader](https://youtube-downloader-civics.vercel.app/) *(Live Website)*
+
+---
 
 [YouTube Downloader Site Link](https://youtube-downloader-civics.vercel.app/)
 
-## 👀 Visitors
+---
 
-![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
+## ⭐ Repository Visitors
+
+<div align="center">
+
+![GitHub Views](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=smart-route-delivery-planner&style=for-the-badge&color=00cf63&label=Profile+Views)
+![GitHub Clones](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=smart-route-delivery-planner&style=for-the-badge&color=00cf63&label=Repo+Clones&clones=true)
+
+*Thank you for visiting! If you find this project useful, please consider giving it a ⭐*
+
+</div>
+
+---
 
 
 ## ✨ Features
