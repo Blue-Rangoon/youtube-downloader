@@ -265,6 +265,8 @@ This tool is for educational purposes only. Please respect YouTube's Terms of Se
 
 ---
 
-<p align="center">
-  Made with ❤️ by Saad Ali Rizvi
-</p>
+<div align="center">
+
+**Made with ❤️ by [Saad Ali Rizvi](https://github.com/Blue-Rangoon)**
+
+</div?
