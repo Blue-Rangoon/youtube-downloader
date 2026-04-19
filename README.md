@@ -266,5 +266,5 @@ This tool is for educational purposes only. Please respect YouTube's Terms of Se
 ---
 
 <p align="center">
-  Made with ❤️ by Saad Ali Rizvi
+  Made with ❤️ by ([Saad Ali Rizvi])(https://www.linkedin.com/in/saad-ali-rizvi/)
 </p>
